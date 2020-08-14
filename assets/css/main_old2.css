@@ -92,8 +92,8 @@ input, select, textarea {
 
 	/* marcado  da pra ajustar o tamanho minimo das paginas*/
 	body { 
-		background: #ffffff;
-		height: 90%;
+		background: #ce4a4a;
+		height: 100%;
 		min-width: 320px;
 	}
 
@@ -498,7 +498,7 @@ input, select, textarea {
 
 	}
 
-/* Type marcado tamanho das fonts*/
+/* Type */
 
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
@@ -512,8 +512,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			body, input, textarea, select {
-				font-size: 13pt; 
-				/* 17 */
+				font-size: 17pt;
 			}
 
 		}
@@ -521,8 +520,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
-				/* 15 */
+				font-size: 15pt;
 			}
 
 		}
@@ -546,8 +544,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 11pt;
-				/* 13 */
+				font-size: 12pt;
 				line-height: 1.5em;
 			}
 
@@ -1904,7 +1901,9 @@ input, select, textarea {
 						font-size: 1em;
 					}
 
-				
+				#header nav {
+					display: none;
+				}
 
 		}
 
@@ -1915,7 +1914,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body {
-				
+				padding-top: 2.5em;
 			}
 
 		}
@@ -2320,67 +2319,13 @@ input, select, textarea {
 			}
 
 		}
-/********************************/
-/* personalizacao 
-/********************************/
-	#header .center {
-		width:1000px;
-		/* 800px */
-		margin: auto;
-	}
-	#footer .center {
-		width:800px;
-		/* 800px */
-		/* margin: auto; */
-	}
 
-	#header h1 {
-		position: static;
-	} #header h1 img {
-		margin-top:20px;
-	}
-	#header nav {
-		position: static;
-		margin: 30px 30px 0 0;
-	}
-	.acw-logo{
+	.logo{
 		float: left;
 		display: block;
 	}	
 
-	.acw-menu{
+	.menu{
 		float: right;
 		display: block;
-	}
-
-	.zapzap img{
-		float: left;
-		width: 5%;
- 		padding: 1px;
-		margin: -3px 10px 0px 0px;
-		/* margin: -3px 10px 1px 272px; */
-	} 
-
-	.cont{
-		float:right;
-	}
-
-	/*---------------------*/
-	@media screen and (max-width: 900px) {
-		.acw-logo {
-			float:none;
-		}
-		.acw-menu {
-			float: none;
-			padding-top: 40px;
-		}
-	}
-
-	@media screen and (max-width: 736px) {
-		#header .center {
-			width: 100%;
-		}
-		.acw-menu {
-			padding-top: 60px;
-		}
 	}

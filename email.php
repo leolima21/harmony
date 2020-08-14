@@ -16,9 +16,9 @@
             "X=Mailer:PHP/".phpversion();
 
   if(mail($to, $subject, $body, $header)){
-    echo("Email enviado com sucessso");
+    echo("Contato enviado com sucesso!");
   }else{
-    echo("O email n pode ser enviado");
+    echo("O contato n pode ser enviado, tente novamente ou entre em contato pelo e-mail: harmonycortinas@gmail.com");
   }
 
 ?>
