@@ -2361,9 +2361,9 @@ input, select, textarea {
 
 	.zapzap img{
 		float: center;
-		width: 3%;
- 		padding: 1px;
-		margin: 0px 5px -6px 0px;
+		width: 4%;
+ 		padding: 0px;
+		margin: 0px 0px -6px 0px;
 	} 
 
 	.zapzap font{
