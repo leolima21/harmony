@@ -16,9 +16,15 @@
             "X=Mailer:PHP/".phpversion();
 
   if(mail($to, $subject, $body, $header)){
-    echo("Contato enviado com sucesso!");
+    echo("Mensagem enviada com sucesso!");
   }else{
-    echo("O contato n pode ser enviado, tente novamente ou entre em contato pelo e-mail: harmonycortinas@gmail.com");
+    echo("A mensagem não pode ser enviada, tente novamente ou entre em contato pelo e-mail: harmonycortinas@gmail.com");
   }
+
+  // Dorme por 3 segundos
+  sleep(3);
+
+  echo ("<script>history.go(-1);</script>");
+
 
 ?>

@@ -2353,13 +2353,22 @@ input, select, textarea {
 		display: block;
 	}
 
+	
+	.zapzap{
+		float: center;
+		width: 100%;
+	}
+
 	.zapzap img{
-		float: left;
-		width: 5%;
+		float: center;
+		width: 3%;
  		padding: 1px;
-		margin: -3px 10px 0px 0px;
-		/* margin: -3px 10px 1px 272px; */
+		margin: 0px 5px -6px 0px;
 	} 
+
+	.zapzap font{
+		float: center;
+	}
 
 	.cont{
 		float:right;
@@ -2384,3 +2393,6 @@ input, select, textarea {
 			padding-top: 60px;
 		}
 	}
+
+
+	
