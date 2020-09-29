@@ -11,8 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel="shortcut icon" href="images/royal_icon.png">
+
 	</head>
 	<body class="is-preload">
+		<a href="https://api.whatsapp.com/send?l=pt&amp;phone=5571993669252"><img 
+			src="images/whats.svg" style="height:64px; position:fixed; bottom: 25px; right: 
+			25px; z-index:99999;" data-selector="img"></a>
 
 		<!-- Header -->
 			<section id="header">
@@ -90,10 +96,13 @@
 					<h2>Contato</h2>
 					<p>Entre em contato conosco e solicite o seu orçamento!</p>
 				</header>
-				<form method="post" action="#">
+
+
+
+				<form method="post" action="./email.php">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Nome" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="E-mail" /></div>
 						<div class="col-12">
 							<textarea name="message" placeholder="Mensagem"></textarea>
 						</div>
