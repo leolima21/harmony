@@ -6,8 +6,8 @@
   $email = addslashes($_POST["email"]);
   $mensagem = addslashes($_POST["message"]);
 
-  $to = "contato@harmonycortinas.com.br";
-  $subject = "contato - Harmony decoracoes";
+  $to = "contato@royalcortinas.com.br";
+  $subject = "contato - Royal Cortinas";
 
   //echo($nome);
   //echo("variaveis 1 ok");
@@ -20,7 +20,7 @@
   //echo("variaveis 2 ok");      
 
   // o email do from tem que ser o email do host
-  $header = "From: contato@harmonycortinas.com.br"."\r\n".
+  $header = "From: contato@royalcortinas.com.br"."\r\n".
             "Reply-To:".$email."\r\n".
             "X=Mailer:PHP/".phpversion();
 
@@ -30,7 +30,7 @@
   if(mail($to, $subject, $body, $header)){
     echo("Mensagem enviada com sucesso!");
   }else{
-    echo("A mensagem não pode ser enviada, tente novamente ou entre em contato pelo e-mail: contato@harmonycortinas.com.br");
+    echo("A mensagem não pode ser enviada, tente novamente ou entre em contato pelo e-mail: contato@royalcortinas.com.br");
   }
 
   // Dorme por 3 segundos
